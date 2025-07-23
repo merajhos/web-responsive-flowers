@@ -49,9 +49,9 @@ li a{
     display: flex;
    justify-content: center;
    align-items: end;
-   width: 1140px;
-   height: 460px;
-   border: 220px 150px;
+   width: 100%;
+   /* height: 460px;
+   border: 220px 150px; */
    background-color: antiquewhite;
 
  }
@@ -71,4 +71,20 @@ li a{
     font-weight: 400;
     color: black;
     opacity: 50%;
+}
+@media screen and (max-width:576px){
+    logo, .banar-menu{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .list-item{
+        display: none;
+    }
+    .png-img,.card{
+        display: flex;
+        justify-content: space-between;
+    }
+    .bannar{
+        flex-wrap: wrap-reverse;
+    }
 }
