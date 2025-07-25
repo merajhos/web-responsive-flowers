@@ -245,6 +245,7 @@ margin: 0 auto;
     width: 100%;
     margin-top: 40px;
     
+    
 }
 .latest-btn{
     background: transparent;
@@ -268,9 +269,11 @@ margin: 0 auto;
     
     display: flex;
     grid-template-columns: repeat(2,1fr);
+    gap: 30px;
 }
 .latest-cards{ 
      margin: auto;
+     gap: 20px;
  
 
 }
@@ -318,6 +321,43 @@ margin: 0 auto;
     border: none;
 }
 
+/* footer start hoilo */
+.logos{
+    margin: auto;
+    width: 100%;
+}
+.all-footer{
+    width: 100%;
+    margin: auto;
+}
+.arakta{
+    margin: auto;
+    width: 100%;
+}
+
+.all-foot{
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    margin:0 auto;
+    /* width: 100%; */
+     display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+.imger{
+    display: inline-block;
+}
+.title-f{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(107, 114, 128, 1);
+
+}
+.footer-column{
+    
+} 
 
 
 /* media media media  */
@@ -373,4 +413,10 @@ margin: 0 auto;
     background-repeat: no-repeat;
   
 }
+.all-foot{
+     display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+}
+
 }
