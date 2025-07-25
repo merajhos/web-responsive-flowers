@@ -367,7 +367,9 @@ padding: 10px;
     }
     .img-contain{
     width: 190px;}
-
+#home{
+    display: block;
+}
 
      .our-flower{
         flex-direction: column;
@@ -420,5 +422,10 @@ padding: 10px;
         height: 200px;
 
     }
+    .title {
+    font-weight: bold;
+    font-size: 40px;
+
+}
 
 }
